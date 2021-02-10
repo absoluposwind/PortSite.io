@@ -1,0 +1,166 @@
+a{
+    color: white;
+    font-size: 1.25rem;
+}
+a:hover{
+    color: black;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+#wrap{
+    margin: 0 auto;
+    padding: 0;
+    }
+
+.header{
+    max-width: 1920px;
+    padding-top: 0;
+    margin: 0 auto;
+    width: 95%;
+    padding: 2%;
+    position: fixed;
+    top: 0;
+}
+
+.header-container{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title{
+
+}
+
+.header-contact{
+}
+#title{
+    font-size: 2rem;
+    opacity: 0;
+    color: white;
+    
+}
+#contact{
+    opacity: 0;
+    
+}
+
+section{
+    width: 100%;
+}
+
+#section-main-container{
+    height: 960px;
+    background:url(./image/ocean4.jpg) no-repeat top left;
+    
+}
+
+.section-main-title{
+    position: relative;
+    left: 0;
+    top: 25%;
+    padding-top: 10%;
+text-align: center;
+vertical-align: center;
+
+}
+
+#section-main-text{
+    color: white;
+    font-size: 10rem;
+    padding-bottom: 1%;
+    
+}
+
+#section-main-text2{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+    width: 20%;
+    height: 45px;
+    margin: 0 auto;
+}
+
+#section-sub-text{
+    opacity: 0;
+}
+
+#section-portpolio-container{
+    padding-top: 30%;
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+.section-portpolio-text{
+width: 100%;
+float: left;
+text-align: center;
+}
+
+.section-portpolio-text h1{
+    font-size: 4rem;
+}
+
+.section-portpolio-text hr{
+    width: 30%;
+}
+
+footer{
+    width: 100%;
+}
+
+@media(max-width:1600px){
+    #section-main-text{
+        font-size: 7rem;
+    }
+    #section-main-text2{
+        width: 25%;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:1024px){
+    #section-main-text{
+        font-size: 6rem;
+    }
+    #section-main-text2{
+        width: 30%;
+        height: 30px;
+        font-size: 1.25rem;
+    }
+    #title{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media(max-width:768px){
+    #section-main-text{
+        font-size: 5rem;
+    }
+    #section-main-text2{
+        width: 35%;
+        font-size: 1rem;
+    }
+    #title{
+        font-size: 1.1rem;
+    }
+    .section-portpolio-text h1{
+        font-size: 2rem;
+    }
+    .section-portpolio-text hr{
+        width: 50%;
+    }
+}
+@media(max-width:600px){
+    
+}
+@media(max-width:480px){
+
+}
